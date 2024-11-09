@@ -1,0 +1,42 @@
+# Inspiration from https://www.youtube.com/watch?v=P3oKNE72EzU
+
+Gird of elements (X by Y)
+- You control the percent of it that is uranium
+
+Uranium 235
+- When hit by neutron:
+    1: Make the uranium spent
+    2: Release 3 neutrons
+- Spent uranium has an X percent chance (You control it) to go back into normal Uranium
+
+Xenon 135
+- Can absorb neutrons just like Control Rods
+- When hit by neutron:
+    1: Make the xenon burnt
+    2: Absorbs the neutrons
+- Spent uranium has an X percent chance (You control it) to turn into Xenon
+
+Neutrons
+- Two Types
+    1: Fast Neutron (just the outline or something) | Cannot be absorbed by control rods nor elements | The default state of neutrons
+    2: Regular Neutron
+
+Moderator
+- When a fast neutron hits it:
+    The fast neutron turns into a normal neutron (and is reflected like hitting a wall)
+- When a normal neutron hits it:
+    It passes right through it
+
+
+Radioactive Decay
+- All elements can spontaniously release a neutron. You control the percent chance that it does per spawn chance (idk like chance every 5s)
+
+Control Rods
+- Absorb Neutrons
+
+Water
+- Chance to absorb a neutron
+- When neutron and water are touching the water heats up
+- Three states. Transparent Blue = Regular Water | Red-Orange = Hot/Boiling | Empty Space = Evaporated (Can't absorb neutrons)
+- Water can cool down, and condensate back into boiling, then regular water
+~ Maybe add where water (not evaporated) can even out the temperature within the system by sharing it w/ it's neighbors
